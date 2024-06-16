@@ -13,18 +13,28 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Manrope', sans-serif;
-    background-color: a#36072A;
+    color: a#36072A;
 }
 
 header {
-    font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #36072A;
+}
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #33032F;
 
 }
 

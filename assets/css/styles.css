@@ -46,14 +46,17 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
 }
+
 #menu li {
     margin-bottom: 1rem;
 }
+
 .active {
     border-bottom: 1px solid #36072A;
 }
+
 /* navbar dropdown toggle */
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -64,12 +67,15 @@ nav{
     display: none;
 
 }
+
 #menu_drop:checked~nav {
     display: block;
 }
+
 #menu_drop {
     display: none;
 }
+
 .menu_drop_label {
     font-size: 3 rem;
 }
@@ -77,4 +83,43 @@ nav{
 main {
     flex: 1 0 auto;
     margin-top: 50px;
+}
+
+footer {
+    background-color: aqua;
+}
+
+/* media : tablets and larger (768px and up)  */
+@media screen and (min-width: 768px) {
+
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .menu_drop_label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 260%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 80px;
+    }
 }

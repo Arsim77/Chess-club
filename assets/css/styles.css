@@ -123,3 +123,11 @@ footer {
         margin-top: 80px;
     }
 }
+
+/* media  (laptops and desktops, 992px) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid color #36072A
+
+        
+    }

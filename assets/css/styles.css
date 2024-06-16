@@ -49,6 +49,17 @@ h1 {
 .active {
     border-bottom: 1px solid #36072A;
 }
+/* navbar dropdown toggle */
+nav{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #36072A;
+    display: none;
+
+}
 
 main {
     flex: 1 0 auto;

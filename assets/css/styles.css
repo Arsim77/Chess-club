@@ -33,7 +33,9 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -85,6 +87,43 @@ main {
     margin-top: 50px;
 }
 
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url(../images/hero.webp) no-repeat center center/cover;
+    position: relative;
+}
+
+#smart-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 80px;
+    width: 80%;
+    min-height: 50px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  
+
+}
+
+#fun-text {
+    background-color: rgba(238, 241, 231, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#smart-text {
+    color: #ffffff;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -133,6 +172,10 @@ main {
 
     main {
         margin-top: 80px;
+    }
+    #smart-text, #fun-text {
+        width: 300px;
+        right: 50px;
     }
 }
 

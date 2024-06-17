@@ -139,6 +139,7 @@ h3 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 150%;
+    text-transform: none;
 }
 
 #benefits-physical>div,

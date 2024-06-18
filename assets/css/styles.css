@@ -129,7 +129,7 @@ main {
     margin: 20px auto;
 }
 
-#reasons>h2 {
+#reasons > h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 250%;
@@ -140,6 +140,7 @@ h3 {
     text-align: center;
     font-size: 150%;
     text-transform: none;
+   
 }
 
 #benefits-physical>div,
@@ -151,10 +152,10 @@ h3 {
 #benefits p {
     padding: 0 20px;
 }
-
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+    
 }
 
 #circle-cover-1 {
@@ -264,7 +265,17 @@ h3 {
         display: flex;
         flex-direction: row;
         width: 100%;
+        
     }
+    #benefits-physical>div,
+    #benefits-mental>div {
+        width: 75%;
+    }
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+
+}
 }
 
 /* media  (laptops and desktops, 992px) */

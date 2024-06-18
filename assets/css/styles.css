@@ -93,18 +93,27 @@ main {
     background: url(../images/hero.webp) no-repeat center center/cover;
     position: relative;
 }
-
-#smart-text {
-    background-color: rgba(241, 109, 107, .7);
+#signup {
+    background-color: rgba( 0, 0, 0, 0.8);
     font-size: 130%;
     position: absolute;
-    bottom: 80px;
+    bottom: 10px;
     width: 80%;
     min-height: 50px;
     padding: 20px;
     padding-left: 10px;
     padding-bottom: 5px;
-
+}
+#smart-text {
+    background-color: rgba( 0, 0, 0, 0.8);
+    font-size: 130%;
+    position: absolute;
+    bottom: 90px;
+    width: 80%;
+    min-height: 50px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px
 
 }
 
@@ -112,7 +121,7 @@ main {
     background-color: rgba(238, 241, 231, 0.7);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     width: 80%;
     min-height: 50px;
     padding: 5px;
@@ -120,7 +129,8 @@ main {
     padding-bottom: 20px;
 }
 
-#smart-text {
+#smart-text,
+#signup {
     color: #ffffff;
 }
 
@@ -129,7 +139,7 @@ main {
     margin: 20px auto;
 }
 
-#reasons > h2 {
+#reasons>h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 250%;
@@ -140,7 +150,7 @@ h3 {
     text-align: center;
     font-size: 150%;
     text-transform: none;
-   
+
 }
 
 #benefits-physical>div,
@@ -152,10 +162,11 @@ h3 {
 #benefits p {
     padding: 0 20px;
 }
+
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
-    
+
 }
 
 #circle-cover-1 {
@@ -202,6 +213,20 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#times div {
+    color: #ffffff;
+    background-color: rgba( 0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #ffffff;
+    
+}
+
+#times h3{
+    color: #ffffff;
 }
 
 /* Footer */
@@ -255,9 +280,11 @@ h3 {
     }
 
     #smart-text,
-    #fun-text {
+    #fun-text,
+    #signup {
         width: 300px;
         right: 50px;
+        
     }
 
     #benefits-physical,
@@ -265,17 +292,22 @@ h3 {
         display: flex;
         flex-direction: row;
         width: 100%;
-        
+
     }
+
     #benefits-physical>div,
     #benefits-mental>div {
         width: 75%;
     }
+
     #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
 
-}
+    }
+    #times {
+        display: flex;
+    }
 }
 
 /* media  (laptops and desktops, 992px) */
@@ -285,6 +317,6 @@ h3 {
     }
 
     #hero {
-        height: 550px;
+        height: 600px;
     }
 }
